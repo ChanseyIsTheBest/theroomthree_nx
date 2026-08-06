@@ -1,0 +1,43 @@
+MIT License
+
+Copyright (c) 2026 theroom3_nx contributors
+
+This project builds on the open-source Switch .so-loader lineage -- Andy Nguyen,
+fgsfds, TheOfficialFloW, ChanseyIsTheBest, and the Hitman GO / Zookeeper DX /
+PvZ Fusion / Deus Ex GO ports, and the CloverPit NX port, from which the video
+decoder, GL upload/draw path and audio mixing in r3_video.c are derived. The
+shared loader and shim infrastructure
+(so_util, libc_shim, jni_fake, unity_jni, opensles, nx_pointer,
+android_native_unity, asset_pack, and the diagnostic layer) originates there and
+remains under the MIT licence its authors granted. Copyright in those portions
+stays with them.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+NOT COVERED BY THIS LICENCE
+
+This licence applies to the loader only. It grants no rights whatsoever in
+The Room Three, which is the property of Fireproof Games, nor in the Unity
+engine, which is the property of Unity Technologies.
+
+This project ships no game code and no game assets. libmain.so, libunity.so,
+libil2cpp.so and the assets/ tree must be supplied by the user from their own
+legally obtained copy of the game. Do not redistribute them.
