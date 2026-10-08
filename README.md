@@ -1,3 +1,5 @@
+# ARCHIVED - Support the official release which wasn't announced at the time!
+
 # The Room Three — Nintendo Switch port (Unity 2021.3 / IL2CPP wrapper)
  
 This is a native wrapper / loader that runs the original ARM64 Android build of
